@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext.jsx';
-import { productImage } from '../assets';
+import { productImage } from '../utils/assets';
 import { formatPrice } from '../utils/format.js';
 import Rating from './Rating.jsx';
 import UiIcon from './UiIcon.jsx';

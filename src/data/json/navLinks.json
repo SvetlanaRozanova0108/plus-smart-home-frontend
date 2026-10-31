@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "label": "Каталог",
+    "to": "/catalog"
+  },
+  {
+    "id": 2,
+    "label": "Новинки",
+    "to": "/catalog?sort=new"
+  },
+  {
+    "id": 3,
+    "label": "Датчики",
+    "to": "/catalog?category=SENSORS"
+  },
+  {
+    "id": 4,
+    "label": "Сценарии",
+    "to": "/scenarios"
+  },
+  {
+    "id": 5,
+    "label": "Доставка",
+    "to": "/delivery"
+  },
+  {
+    "id": 6,
+    "label": "Контакты",
+    "to": "/contacts"
+  }
+]

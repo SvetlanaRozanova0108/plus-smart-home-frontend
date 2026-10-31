@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { productImage } from '../assets';
+import { productImage } from '../utils/assets';
 import Icon from './Icon.jsx';
 import UiIcon from './UiIcon.jsx';
 

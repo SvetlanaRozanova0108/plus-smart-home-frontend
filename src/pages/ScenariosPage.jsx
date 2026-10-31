@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { scenarios } from '../data/catalog.js';
+import { scenarios } from '../data/catalogLoader.js';
 import { catalogPromo } from '../data/content.js';
 import PageHead from '../components/PageHead.jsx';
 import ScenarioCard from '../components/ScenarioCard.jsx';

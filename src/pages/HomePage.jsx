@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { fetchAllProducts, getFallbackProducts } from '../api/client.js';
-import { images, productImage } from '../assets';
+import { images, productImage } from '../utils/assets';
 import { useCart } from '../context/CartContext.jsx';
 import {
   benefits,
   categories,
   reviews,
   scenarios,
-} from '../data/catalog.js';
+} from '../data/catalogLoader.js';
 import { heroFeatures } from '../data/content.js';
 import { devicesLabel, formatPrice, reviewsLabel } from '../utils/format.js';
 import Icon from '../components/Icon.jsx';

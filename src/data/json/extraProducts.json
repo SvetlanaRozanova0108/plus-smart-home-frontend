@@ -1,0 +1,32 @@
+[
+  {
+    "id": 37,
+    "productId": "99999999-9999-9999-9999-999999999999",
+    "productName": "Датчик протечки Plus W1",
+    "description": "Сообщит о протечке и перекроет воду вместе с умным краном.",
+    "imageSrc": "product-sensor.jpg",
+    "rating": 5,
+    "price": 1490,
+    "oldPrice": 1890,
+    "reviewCount": 47,
+    "productCategory": "SENSORS",
+    "quantityState": "MANY",
+    "productState": "ACTIVE",
+    "isNew": true
+  },
+  {
+    "id": 38,
+    "productId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "productName": "Умный выключатель Plus S2",
+    "description": "Двухклавишный выключатель с подсветкой и управлением сценариями.",
+    "imageSrc": "product-hub.jpg",
+    "rating": 5,
+    "price": 2390,
+    "oldPrice": 2890,
+    "reviewCount": 39,
+    "productCategory": "CONTROL",
+    "quantityState": "MANY",
+    "productState": "ACTIVE",
+    "isNew": true
+  }
+]

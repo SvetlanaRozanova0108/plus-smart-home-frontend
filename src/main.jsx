@@ -1,18 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App.jsx';
-import { CartProvider } from './context/CartContext.jsx';
-import './styles/global.css';
-import './styles/layout.css';
-import './styles/pages.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { HashRouter } from "react-router-dom";
+import App from "./App.jsx";
+import { CartProvider } from "./context/CartContext.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/global.css";
+import "./styles/layout.css";
+import "./styles/pages.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <CartProvider>
         <App />
       </CartProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 );

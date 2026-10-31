@@ -1,0 +1,59 @@
+[
+  {
+    "id": 7,
+    "title": "Умные лампы",
+    "count": "124 товара",
+    "icon": "bulb",
+    "filter": {
+      "category": "LIGHTING"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Датчики",
+    "count": "86 товаров",
+    "icon": "temperature",
+    "filter": {
+      "category": "SENSORS"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Контроллеры",
+    "count": "42 товара",
+    "icon": "settings",
+    "filter": {
+      "category": "CONTROL"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Хабы и шлюзы",
+    "count": "18 товаров",
+    "icon": "antenna",
+    "filter": {
+      "category": "CONTROL",
+      "q": "Hub"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Камеры",
+    "count": "37 товаров",
+    "icon": "shield",
+    "filter": {
+      "category": "SENSORS",
+      "q": "Cam"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Розетки",
+    "count": "95 товаров",
+    "icon": "plug",
+    "filter": {
+      "category": "CONTROL",
+      "q": "P1"
+    }
+  }
+]

@@ -1,4 +1,4 @@
-import { icon } from '../assets';
+import { icon } from '../utils/assets';
 
 /**
  * Иконка из набора Figma. Исходные SVG белые, поэтому красим их

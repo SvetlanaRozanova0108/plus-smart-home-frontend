@@ -1,4 +1,4 @@
-import { extraProducts, fallbackProducts } from '../data/catalog.js';
+import { extraProducts, fallbackProducts } from '../data/catalogLoader.js';
 
 const API_BASE = (import.meta.env.VITE_API_BASE || '/api').replace(/\/+$/, '');
 const REQUEST_TIMEOUT = 6000;

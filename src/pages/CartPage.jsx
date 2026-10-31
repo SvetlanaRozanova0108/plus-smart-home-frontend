@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { productImage } from '../assets';
+import { productImage } from '../utils/assets';
 import { useCart } from '../context/CartContext.jsx';
-import { categoryLabels } from '../data/catalog.js';
+import { categoryLabels } from '../data/catalogLoader.js';
 import { formatPrice, itemsLabel } from '../utils/format.js';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import CheckoutModal from '../components/CheckoutModal.jsx';

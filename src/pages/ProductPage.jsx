@@ -6,9 +6,9 @@ import {
   getFallbackProduct,
   getFallbackProducts,
 } from '../api/client.js';
-import { productImage } from '../assets';
+import { productImage } from '../utils/assets';
 import { useCart } from '../context/CartContext.jsx';
-import { categoryLabels, reviews } from '../data/catalog.js';
+import { categoryLabels, reviews } from '../data/catalogLoader.js';
 import { productHighlights } from '../data/content.js';
 import { discountPercent, formatPrice, reviewsLabel } from '../utils/format.js';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { navLinks } from '../data/catalog.js';
+import { navLinks } from '../data/catalogLoader.js';
 import { contacts } from '../data/content.js';
 import { useCart } from '../context/CartContext.jsx';
 import Icon from './Icon.jsx';

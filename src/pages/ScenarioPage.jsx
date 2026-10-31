@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { fetchAllProducts, getFallbackProducts } from '../api/client.js';
-import { images, productImage } from '../assets';
+import { images, productImage } from '../utils/assets';
 import { useCart } from '../context/CartContext.jsx';
-import { scenarios } from '../data/catalog.js';
+import { scenarios } from '../data/catalogLoader.js';
 import { devicesLabel } from '../utils/format.js';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import Icon from '../components/Icon.jsx';

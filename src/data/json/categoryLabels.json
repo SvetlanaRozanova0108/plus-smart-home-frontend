@@ -1,0 +1,17 @@
+[
+  {
+    "id": 26,
+    "code": "LIGHTING",
+    "label": "Освещение"
+  },
+  {
+    "id": 27,
+    "code": "SENSORS",
+    "label": "Датчики"
+  },
+  {
+    "id": 28,
+    "code": "CONTROL",
+    "label": "Контроль"
+  }
+]
